@@ -8,10 +8,10 @@ interface ParseDetailServiceInterface {
     /**
      * 產生遊戲詳情網址
      *
-     * @param string $game_code
-     * @param array $raw_detail
+     * @param string $gameCode 遊戲代碼
+     * @param array $rawDetail 原始詳情
      * @return mixed
      */
-    function genDetailUrl(string $game_code, array $raw_detail);
+    function genDetailUrl(string $gameCode, array $rawDetail);
 }
 
