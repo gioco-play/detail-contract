@@ -6,12 +6,12 @@ namespace GiocoPlus\ParseDetail\Contract;
  */
 interface ParseDetailServiceInterface {
     /**
-     * 產生遊戲詳情網址
+     * 遊戲詳情網址產生
      *
      * @param string $gameCode 遊戲代碼
      * @param string $betId 注單號
-     * @return mixed
+     * @return array
      */
-    function genDetailUrl(string $gameCode, array $betId);
+    function genDetailUrl(string $gameCode, string $betId): array;
 }
 
