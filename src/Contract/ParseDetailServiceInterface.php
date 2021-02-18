@@ -7,12 +7,11 @@ namespace GiocoPlus\ParseDetail\Contract;
 interface ParseDetailServiceInterface {
     /**
      * 遊戲詳情網址產生
-     *
-     * @param string $opCode 營商代碼
      * @param string $gameCode 遊戲代碼
-     * @param string $betId 注單號
-     * @return array
+     * @param array $rawDetail 需解析的原始資料
+     * @param string $lang 語系
+     * @return string
      */
-    function genDetailUrl(string $opCode, string $gameCode, string $betId): array;
+    function genUrl(string $gameCode, array $rawDetail, string $lang = 'zh'): string;
 }
 
