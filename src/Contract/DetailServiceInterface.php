@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
-namespace GiocoPlus\ParseDetail\Contract;
+namespace GiocoPlus\Detail\Contract;
 /**
  * 解析遊戲詳情
  */
-interface ParseDetailServiceInterface {
+interface DetailServiceInterface {
     /**
      * 遊戲詳情網址產生
      * @param string $gameCode 遊戲代碼

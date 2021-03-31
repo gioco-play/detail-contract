@@ -1,5 +1,5 @@
 {
-    "name": "gioco-plus/parsedetail-contract",
+    "name": "gioco-plus/detail-contract",
     "description": "Parse Detail Interface",
     "type": "library",
     "license": "MIT",
