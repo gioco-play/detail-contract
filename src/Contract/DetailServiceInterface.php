@@ -10,8 +10,8 @@ interface DetailServiceInterface {
      * @param string $gameCode 遊戲代碼
      * @param array $rawDetail 需解析的原始資料
      * @param string $lang 語系
-     * @return string
+     * @return array
      */
-    function genUrl(string $gameCode, array $rawDetail, string $lang = 'zh'): string;
+    function genUrl(string $gameCode, array $rawDetail, string $lang = 'zh'): array;
 }
 
